@@ -14,4 +14,5 @@ docker image ls -f label=name=udacity-ml-microservice-api
 
 # Step 3: 
 # Run flask app
-docker run -p 172.31.16.237:8080:80 udacity-ml-microservice-api:v1
+docker run -p 172.17.0.1:8080:80 mktavish/udacity-ml-microservice-api:v1
+#docker run mktavish/udacity-ml-microservice-api:v1
