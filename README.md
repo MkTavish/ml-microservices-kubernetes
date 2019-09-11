@@ -25,4 +25,4 @@ It was deployed on an Ubuntu 18.04 EC2 instance on Amazon Web Services
 - Start Mikikube with `minikube start --vm-driver=none`  
 - Edit `run_kubernetes.sh` with your docker image.
 - Run `run_kubernetes.sh` this will create a pod.
-- Make predictions again using `./make_prediction.sh`
+- Make predictions again using `./make_prediction.sh`.
